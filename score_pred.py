@@ -12,7 +12,6 @@ data.head(10)
 # Check if there any null value in the Dataset
 
 data.isnull == True
-#sns.set_style('darkgrid')
 sns.scatterplot(y= data['Scores'], x= data['Hours'])
 plt.title('Marks Vs Study Hours',size=20)
 plt.ylabel('Marks Percentage', size=12)
